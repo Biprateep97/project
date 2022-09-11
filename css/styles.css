@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2874f0;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 56px;
+    padding: 0;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin: 0px 0px 0px 175px;
+}
+
+input {
+    width: 554px;
+    height: 34px;
+    margin: 0px 10px;
+    padding: 0 12px;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    padding: 23px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    min-height: calc(88vh - 299px - 56px);
+}
+
+.card {
+    max-width: 84vw;
+    margin: auto;
+    display: flex;
+}
+
+.item {
+    margin: 10px 0;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.line {
+    width: 140px;
+}
+
+.line9 {
+    width: 155px;
+}
+
+.item:hover {
+    color: #2874f0;
+}
+.big-container {
+    display: flex;
+    height: 353px;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 80vw;
+}
+
+.card2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.container2 button {
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+.container2 button:hover{
+    cursor: pointer;
+}
+.container3 {
+    max-width: 80vw;
+}
+
+.card3 {
+    max-width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0 10px 5px;
+}
+
+.card3 p {
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.items {
+    margin: 0 20px 0 0;
+}
+.items:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.slide{
+    margin: 5px 0 5px 63px;
+}
+
+
+.slide img {
+    height: 340px;
+    width: 230px;
+}
+.slide img:hover {
+    cursor: pointer;
+}
+.change:hover{
+    cursor: pointer;
+}
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
